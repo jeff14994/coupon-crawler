@@ -38,6 +38,5 @@ def get_proxy_ip():
     # print(all_ip)
     return all_ip
 if __name__ == "__main__":
-    url = "https://free-proxy-list.net/"
-    proxy_ips = get_proxy_ip(url)
-    print(len(proxy_ips))
+    proxy_ips = get_proxy_ip()
+    print(f"Obtain IP numbers: {len(proxy_ips)}")

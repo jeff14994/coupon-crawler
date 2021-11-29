@@ -18,3 +18,6 @@ def create_header():
     headers["Sec-Fetch-Mode"] = f"{os.environ['Sec-Fetch-Mode']}"
     headers["Sec-Fetch-Site"] = f"{os.environ['Sec-Fetch-Site']}"
     return headers
+if __name__ == "__main__":
+    headers = create_header()
+    print(f"Headers: ", headers)
