@@ -1,6 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-import random
 def get_proxy_ip():
     url = "https://free-proxy-list.net/"
     # 發起請求

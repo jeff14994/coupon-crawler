@@ -9,3 +9,4 @@ post*
 payload*
 json2py.py
 discount.py
+log.py
