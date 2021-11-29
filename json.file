@@ -1,0 +1,14 @@
+{
+   "inputs": {
+      "email": "xxx@gmail.com",
+      "phone": "",
+      "first_name": "xx",
+      "last_name": "",
+      "birthday": "",
+      "optin": false
+   },
+   "domain": "www.switch-bot.com",
+   "page": "/pages/switchbot-black-friday-deals-2021",
+   "visitor_token": "XXXXXXXXXX",
+   "local_time_zone": "america_phoenix"
+}

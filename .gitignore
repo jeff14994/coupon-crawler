@@ -1,0 +1,11 @@
+spin/
+__pycache__
+*.env
+.DS_Store
+discount*
+cookies*
+coupon*
+post*
+payload*
+json2py.py
+discount.py
