@@ -13,7 +13,6 @@ def get_proxy_ip():
     # 將該table 所有 td tag 取出來
     # print(table)
     all_proxy = table.findChildren('tr',recursive=True)
-   
     # print(all_proxy)
     # 將所有 IP 變成 list
     all_ip = []
