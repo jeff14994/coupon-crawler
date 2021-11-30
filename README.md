@@ -2,7 +2,6 @@
 ## Why writing this repo? 
 - Hope to increase the opportunity to get the 50% off coupon
 <img src="https://github.com/jeff14994/coupon-crawler/blob/main/gif/origin.gif" width="400" height="700"/>
-![alt-text](https://github.com/jeff14994/coupon-crawler/blob/main/gif/origin.gif)
 ## Demo: 
 - Obtain coupons automatically 
 ![alt-text](https://github.com/jeff14994/coupon-crawler/blob/main/gif/demo.gif)
