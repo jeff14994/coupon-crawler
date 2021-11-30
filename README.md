@@ -1,5 +1,9 @@
 # Coupon Crawler
-## Demo: Obtain coupons automatically 
+## Demo: 
+- Obtain coupons automatically 
+![alt-text](https://github.com/jeff14994/coupon-crawler/blob/main/demo.gif)
+
+
 
 ## Observe the packets with Burp Suite
 - headers:
