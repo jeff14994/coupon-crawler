@@ -9,7 +9,7 @@
 
 ## Observe the packets with Burp Suite
 - headers:
-    - <img src="https://github.com/jeff14994/coupon-crawler/blob/main/resources/payload.png" width="200" height="350"/>
+    - <img src="https://github.com/jeff14994/coupon-crawler/blob/main/resources/packets.png" width="200" height="350"/>
 ## Bypass the check
 - Use [free proxies](https://free-proxy-list.net/) to bypass
 ## Packages to install
