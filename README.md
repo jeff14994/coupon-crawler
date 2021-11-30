@@ -1,4 +1,7 @@
 # Coupon Crawler
+## Why writing this repo? 
+- Hope to increase the opportunity to get the 50% off couopn
+- 
 ## Demo: 
 - Obtain coupons automatically 
 ![alt-text](https://github.com/jeff14994/coupon-crawler/blob/main/demo.gif)
@@ -11,6 +14,10 @@
 ## Bypass the check
 - Use free proxies to bypass
 ## Package to install
+- `pwntools`
+- `requests`
+- `BeautifulSoup`
+- `dotenv`
 ## How to run the script?
 - Clone this repo to local
     - `git clone https://github.com/jeff14994/coupon-crawler.git` 
