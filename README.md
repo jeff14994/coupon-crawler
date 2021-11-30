@@ -1,15 +1,15 @@
 # Coupon Crawler
 ## Why writing this repo? 
 - Hope to increase the opportunity to get the 50% off coupon
-<img src="https://github.com/jeff14994/coupon-crawler/blob/main/resouces/origin.gif" width="400" height="700"/>
+<img src="https://github.com/jeff14994/coupon-crawler/blob/main/resources/origin.gif" width="400" height="700"/>
 
 ## Demo: 
 - Obtain coupons automatically 
-![alt-text](https://github.com/jeff14994/coupon-crawler/blob/main/resouces/demo.gif)
+![alt-text](https://github.com/jeff14994/coupon-crawler/blob/main/resources/demo.gif)
 
 ## Observe the packets with Burp Suite
 - headers:
-    - <img src="https://github.com/jeff14994/coupon-crawler/blob/main/resouces/origin.gif" width="400" height="700"/>
+    - <img src="https://github.com/jeff14994/coupon-crawler/blob/main/resources/origin.gif" width="400" height="700"/>
 ## Bypass the check
 - Use [free proxies](https://free-proxy-list.net/) to bypass
 ## Packages to install
