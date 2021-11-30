@@ -1,7 +1,7 @@
 # Coupon Crawler
 ## Why writing this repo? 
-- Hope to increase the opportunity to get the 50% off couopn
-- 
+- Hope to increase the opportunity to get the 50% off coupon
+![alt-text]()
 ## Demo: 
 - Obtain coupons automatically 
 ![alt-text](https://github.com/jeff14994/coupon-crawler/blob/main/demo.gif)
@@ -12,8 +12,8 @@
 - headers:
     - 
 ## Bypass the check
-- Use free proxies to bypass
-## Package to install
+- Use [free proxies](https://free-proxy-list.net/) to bypass
+## Packages to install
 - `pwntools`
 - `requests`
 - `BeautifulSoup`
