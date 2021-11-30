@@ -1,4 +1,7 @@
 # Coupon Crawler
+![GitHub top language](https://img.shields.io/github/languages/top/jeff14994/coupon-crawler?logo=Python&logoColor=green)
+![GitHub repo size](https://img.shields.io/github/repo-size/jeff14994/coupon-crawler?logo=Github)
+![GitHub last commit](https://img.shields.io/github/last-commit/jeff14994/coupon-crawler?logo=Github)
 ## Why writing this repo? 
 - Hope to increase the opportunity to get the 50% off coupon
 <img src="https://github.com/jeff14994/coupon-crawler/blob/main/resources/origin.gif" width="400" height="700"/>
