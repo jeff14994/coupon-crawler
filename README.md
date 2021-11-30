@@ -1,10 +1,10 @@
 # Coupon Crawler
 ## Why writing this repo? 
 - Hope to increase the opportunity to get the 50% off coupon
-![alt-text]()
+![alt-text](https://github.com/jeff14994/coupon-crawler/blob/main/gif/origin.gif)
 ## Demo: 
 - Obtain coupons automatically 
-![alt-text](https://github.com/jeff14994/coupon-crawler/blob/main/demo.gif)
+![alt-text](https://github.com/jeff14994/coupon-crawler/blob/main/gif/demo.gif)
 
 
 
