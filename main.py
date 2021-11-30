@@ -14,8 +14,8 @@ headers = create_header()
 proxy_ips = get_proxy_ip()
 # info(proxy_ips)
 def main():
-    p = log.progress("Start digging coupon: \n")
     while True:
+        p = log.progress("Start digging coupon: \n")
         data = {}
         data = set_payload()
         try:
@@ -23,7 +23,6 @@ def main():
             # p.success("Get responses: ")
             result = response.text
             p.success(result)
-
             # Don't log the message larger than 1000 chardacters
             if len(response) < 1000:
                 with open("discount.txt", "a") as target:
