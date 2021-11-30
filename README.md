@@ -5,7 +5,7 @@
 
 ## Demo: 
 - Obtain coupons automatically 
-![alt-text](https://github.com/jeff14994/coupon-crawler/blob/main/resources/demo.gif)
+<img src="https://github.com/jeff14994/coupon-crawler/blob/main/resources/demo.gif">
 
 ## Observe the packets with Burp Suite
 - headers:
