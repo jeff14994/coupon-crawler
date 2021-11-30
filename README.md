@@ -1,5 +1,5 @@
 # Coupon Crawler
-## Demo: Obtain coupons automaticlly and hope to get the hightest percent off (50% off)
+## Demo: Obtain coupons automatically 
 
 ## Observe the packets with Burp Suite
 - headers:
